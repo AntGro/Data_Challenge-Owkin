@@ -1,0 +1,130 @@
+{
+    "CoxPH-1": [
+        {
+            "tie_method": "Efron",
+            "penalizer": 10.0,
+            "strata": null,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "original_glcm_Imc2",
+            "original_glcm_ClusterShade",
+            "original_glcm_Autocorrelation",
+            "original_glcm_Correlation",
+            "original_shape_Maximum3DDiameter",
+            "original_glrlm_LowGrayLevelRunEmphasis",
+            "original_firstorder_Entropy",
+            "Nstage",
+            "original_glcm_Imc1",
+            "original_firstorder_Skewness",
+            "original_shape_SurfaceVolumeRatio",
+            "Mstage",
+            "SourceDataset"
+        ],
+        1,
+        0.7220535205921427
+    ],
+    "WeibullAFT-1": [
+        {
+            "alpha": 0.05,
+            "penalizer": 1.0,
+            "l1_ratio": 0,
+            "fit_intercept": true,
+            "model_ancillary": true,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "original_glcm_ClusterShade",
+            "original_glcm_Autocorrelation",
+            "original_glcm_Correlation",
+            "original_shape_Maximum3DDiameter",
+            "original_glrlm_LowGrayLevelRunEmphasis",
+            "original_firstorder_Entropy",
+            "Nstage",
+            "original_glcm_Imc1",
+            "original_firstorder_Skewness",
+            "original_shape_SurfaceVolumeRatio",
+            "Mstage",
+            "SourceDataset"
+        ],
+        1,
+        0.7046877965458341
+    ],
+    "AalenAdditive-1": [
+        {
+            "fit_intercept": true,
+            "alpha": 0.05,
+            "coef_penalizer": 0.0,
+            "smoothing_penalizer": 0.01,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "original_firstorder_Entropy",
+            "Nstage",
+            "original_glcm_Imc1",
+            "original_firstorder_Skewness",
+            "original_shape_SurfaceVolumeRatio",
+            "Mstage",
+            "SourceDataset"
+        ],
+        1,
+        0.681438603150503
+    ],
+    "CoxPH-2": [
+        {
+            "tie_method": "Efron",
+            "penalizer": 0.1,
+            "strata": null,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "Mstage",
+            "SourceDataset",
+            "original_firstorder_Minimum",
+            "original_glcm_Autocorrelation",
+            "original_glcm_ClusterProminence"
+        ],
+        2,
+        0.7204086796988676
+    ],
+    "CoxPH-3": [
+        {
+            "tie_method": "Efron",
+            "penalizer": 10.0,
+            "strata": null,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "Nstage",
+            "SourceDataset",
+            "original_firstorder_Entropy",
+            "original_firstorder_Maximum",
+            "original_glcm_ClusterShade"
+        ],
+        2,
+        0.7220535205921427
+    ],
+    "WeibullAFT-3": [
+        {
+            "alpha": 0.05,
+            "penalizer": 1.0,
+            "l1_ratio": 0,
+            "fit_intercept": true,
+            "model_ancillary": true,
+            "duration_col": "duration_col",
+            "event_col": "Event"
+        },
+        [
+            "SourceDataset",
+            "original_glcm_Autocorrelation",
+            "original_glcm_Imc1"
+        ],
+        2,
+        0.7046877965458341
+    ]
+}
